@@ -121,14 +121,14 @@ span.input.input--chisato:nth-child(2) {
 
 .input__field--chisato:focus+.input__label--chisato,
 .input--filled .input__label--chisato {
-	-webkit-animation: anim-chisato-1 0.25s forwards;
-	animation: anim-chisato-1 0.25s forwards;
+	-webkit-animation: anim-chisato-1 0.25s both;
+	animation: anim-chisato-1 0.25s both;
 }
 
 .input__field--chisato:focus+.input__label--chisato .input__label-content--chisato,
 .input--filled .input__label-content--chisato {
-	-webkit-animation: anim-chisato-2 0.25s forwards ease-in;
-	animation: anim-chisato-2 0.25s forwards ease-in;
+	-webkit-animation: anim-chisato-2 0.25s both ease-in;
+	animation: anim-chisato-2 0.25s both ease-in;
 }
 
 @-webkit-keyframes anim-chisato-1 {
